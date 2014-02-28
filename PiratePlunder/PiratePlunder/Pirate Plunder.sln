@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLogic", "..\GameLogic\GameLogic.vcxproj", "{EC133022-964B-466A-BE94-9BB9CAF75573}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "..\Main\Main.vcxproj", "{05B485CE-20C8-4419-8785-4C458BEB64D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC133022-964B-466A-BE94-9BB9CAF75573} = {EC133022-964B-466A-BE94-9BB9CAF75573}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC133022-964B-466A-BE94-9BB9CAF75573}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC133022-964B-466A-BE94-9BB9CAF75573}.Debug|Win32.Build.0 = Debug|Win32
+		{EC133022-964B-466A-BE94-9BB9CAF75573}.Release|Win32.ActiveCfg = Release|Win32
+		{EC133022-964B-466A-BE94-9BB9CAF75573}.Release|Win32.Build.0 = Release|Win32
+		{05B485CE-20C8-4419-8785-4C458BEB64D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05B485CE-20C8-4419-8785-4C458BEB64D2}.Debug|Win32.Build.0 = Debug|Win32
+		{05B485CE-20C8-4419-8785-4C458BEB64D2}.Release|Win32.ActiveCfg = Release|Win32
+		{05B485CE-20C8-4419-8785-4C458BEB64D2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
